@@ -27,7 +27,6 @@ def ModelLearning(X, y):
 
     # Create the figure window
     fig = pl.figure(figsize=(10,7))
-    print "sandeep"
 
     # Create three different models based on max_depth
     for k, depth in enumerate([1,3,6,10]):
